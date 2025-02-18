@@ -7,7 +7,7 @@ const LikeButton = () => {
   return (
     <div>
       <button 
-      className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200'
+      className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mt-5 inset-shadow-zinc-950 shadow-xl rounded transition-colors duration-200'
       onClick={() => setLiked (!liked)} > 
       {liked ? 'Unlike' : 'Like'} 
       </button>

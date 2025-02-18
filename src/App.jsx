@@ -1,10 +1,11 @@
 import React from 'react'
 import LikeButton from './components/LikeButton'
 import UserCard from './components/UserCard'
+import Producto from './components/Producto'
 
 const App = () => {
   return (
-    <div className='container flex flex-row justify-center'>
+    <div className='container flex flex-row justify-around'>
       <UserCard
         nombre='Juanito'
         edad={25}
@@ -12,6 +13,11 @@ const App = () => {
         />
 
         <LikeButton />
+
+        <Producto 
+        nombre= 'Laptop'
+        descripcion= 'Laptop de 16 GB de RAM'
+        />
     </div>
   )
 }

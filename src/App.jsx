@@ -2,6 +2,7 @@ import React from 'react'
 import LikeButton from './components/LikeButton'
 import UserCard from './components/UserCard'
 import Producto from './components/Producto'
+import Contador from './components/Contador'
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
         nombre= 'Laptop'
         descripcion= 'Laptop de 16 GB de RAM'
         />
+
+        <Contador limite={10} />
     </div>
   )
 }
